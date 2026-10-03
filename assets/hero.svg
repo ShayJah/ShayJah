@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Sheja Rubayi. Mobile and full-stack developer.">
+  <defs>
+    <radialGradient id="glow" cx="500" cy="300" r="420" gradientUnits="userSpaceOnUse" gradientTransform="translate(500 300) scale(1 .5) translate(-500 -300)">
+      <stop offset="0" stop-color="#fff" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .serif { font-family: 'Cormorant Garamond', 'Iowan Old Style', Georgia, 'Times New Roman', serif; font-style: italic; }
+    .mono { font-family: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .in { animation: in 1s ease-out backwards; }
+    .d1 { animation-delay: .15s } .d2 { animation-delay: .35s } .d3 { animation-delay: .55s }
+    @keyframes in { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: none } }
+  </style>
+  <rect width="1000" height="300" fill="#0d1117"/>
+  <rect width="1000" height="300" fill="url(#glow)"/>
+  <rect x="300" y="52" width="400" height="1" fill="url(#rule)"/>
+  <text class="mono in" x="500" y="40" text-anchor="middle" font-size="11" letter-spacing="4" fill="#6e7681">PORTFOLIO</text>
+  <text class="serif in d1" x="500" y="150" text-anchor="middle" font-size="76" font-weight="500" fill="#f2f2f2">Sheja Rubayi</text>
+  <text class="mono in d2" x="500" y="194" text-anchor="middle" font-size="12" letter-spacing="4.5" fill="#8b949e">MOBILE &amp; FULL-STACK DEVELOPER</text>
+  <text class="serif in d3" x="500" y="232" text-anchor="middle" font-size="22" fill="#b1b8c0">Building things people actually use.</text>
+</svg>

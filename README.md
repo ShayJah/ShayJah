@@ -1,55 +1,52 @@
-<!-- Header wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1DB954,50:0d4d2b,100:0d1117&height=220&section=header&text=Sheja%20Rubayi&fontSize=64&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Building%20things%20people%20actually%20use&descAlignY=58&descSize=18" />
+<img width="100%" src="assets/hero.svg" alt="Sheja Rubayi. Mobile and full-stack developer." />
+<a href="https://shayjah.vercel.app/api/now-playing?open"><img width="100%" src="https://shayjah.vercel.app/api/now-playing" alt="What I'm listening to on Spotify right now" /></a>
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=1DB954&center=true&vCenter=true&width=620&lines=Hey%2C+I'm+Sheja+%F0%9F%91%8B;Mobile+%26+full-stack+developer;Real-time+bus+tracking+with+GPS+hardware+%F0%9F%9A%8C;Winery+kiosks+and+wine+passports+%F0%9F%8D%B7;Always+shipping+with+music+on+%F0%9F%8E%A7" alt="Typing intro" /></a>
-
+<details>
+<summary><b>Connect</b></summary>
 <br/>
-
-<!-- 🎧 LIVE SPOTIFY: served by the spotify-now-playing Vercel project -->
-<a href="https://shayjah.vercel.app/api/now-playing?open">
-  <img src="https://shayjah.vercel.app/api/now-playing" alt="What I'm listening to on Spotify right now" width="560" />
-</a>
+<a href="https://www.linkedin.com/in/sheja-rubayi/"><img src="assets/linkedin.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp;&nbsp;LinkedIn</a>
+&nbsp;&nbsp;/&nbsp;&nbsp;
+<a href="https://www.instagram.com/sheja_r/"><img src="assets/instagram.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp;&nbsp;Instagram</a>
+&nbsp;&nbsp;/&nbsp;&nbsp;
+<a href="https://www.cobuuventures.com/"><img src="assets/cobuu.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp;&nbsp;Cobuu</a>
+<br/><br/>
+</details>
 
 </div>
 
----
-
-### 🚀 What I'm building
+### Featured projects
 
 <div align="center">
 
-<a href="https://github.com/ShayJah/SaintsOnGo"><img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=ShayJah&repo=SaintsOnGo&bg_color=0d1117&title_color=1DB954&icon_color=1DB954&text_color=c9d1d9&border_color=30363d" /></a>
-<a href="https://github.com/ShayJah/Sipp"><img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=ShayJah&repo=Sipp&bg_color=0d1117&title_color=1DB954&icon_color=1DB954&text_color=c9d1d9&border_color=30363d" /></a>
-<a href="https://github.com/ShayJah/Kiwassa-Connect"><img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=ShayJah&repo=Kiwassa-Connect&bg_color=0d1117&title_color=1DB954&icon_color=1DB954&text_color=c9d1d9&border_color=30363d" /></a>
-<a href="https://github.com/ShayJah/il-mano-v1"><img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=ShayJah&repo=il-mano-v1&bg_color=0d1117&title_color=1DB954&icon_color=1DB954&text_color=c9d1d9&border_color=30363d" /></a>
+<a href="https://github.com/ShayJah/SaintsOnGo"><img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=ShayJah&repo=SaintsOnGo&bg_color=0d1117&title_color=f2f2f2&icon_color=8b949e&text_color=b1b8c0&border_color=30363d" /></a>
+<a href="https://github.com/ShayJah/Sipp"><img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=ShayJah&repo=Sipp&bg_color=0d1117&title_color=f2f2f2&icon_color=8b949e&text_color=b1b8c0&border_color=30363d" /></a>
+<a href="https://github.com/ShayJah/il-mano-v1"><img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=ShayJah&repo=il-mano-v1&bg_color=0d1117&title_color=f2f2f2&icon_color=8b949e&text_color=b1b8c0&border_color=30363d" /></a>
 
 </div>
 
-| | Project | What it does |
-|---|---|---|
-| 🚌 | **SaintsOnGo** | React Native + Firebase app with GPS hardware for real-time bus tracking |
-| 🍷 | **Sipp** | iPad kiosk + mobile passport that turns winery tastings into personalized wine journeys across the Okanagan |
-| 🏠 | **Kiwassa-Connect** | Tooling that helps student housing managers stay on top of their systems |
-| 🎨 | **Il Mano** | An art gallery for clothes that connect each one of us |
+| Project | What it does |
+|---|---|
+| **SaintsOnGo** | React Native + Firebase app with GPS hardware for real-time bus tracking |
+| **Sipp** | iPad kiosk + mobile passport that turns winery tastings into personalized wine journeys across the Okanagan |
+| **Il Mano Gallery** | An art gallery for clothes that connect each one of us |
+| **[Cobuu](https://www.cobuuventures.com/)** | New project in the works |
 
-### 🛠️ Tech I use
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,firebase,html,css,tailwind,git,github,vercel,figma,vscode&perline=13" alt="Tech stack" />
-</p>
-
-### 📈 Activity
+### Stack
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ShayJah&background=0d1117&border=30363d&ring=1DB954&fire=1DB954&currStreakLabel=1DB954&sideLabels=c9d1d9&dates=8b949e&stroke=30363d&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub streak" />
+JavaScript &nbsp;/&nbsp; TypeScript &nbsp;/&nbsp; React &nbsp;/&nbsp; React Native &nbsp;/&nbsp; Node.js &nbsp;/&nbsp; Firebase &nbsp;/&nbsp; Tailwind &nbsp;/&nbsp; Figma &nbsp;/&nbsp; Vercel
 </p>
 
-<!-- Snake eating my contribution graph, regenerated by .github/workflows/snake.yml -->
+### Activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ShayJah&background=0d1117&border=30363d&ring=e7e7e7&fire=e7e7e7&currStreakLabel=e7e7e7&sideLabels=b1b8c0&dates=6e7681&stroke=30363d&currStreakNum=ffffff&sideNums=ffffff" alt="GitHub streak" />
+</p>
+
+<!-- Contribution snake, regenerated by .github/workflows/snake.yml -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShayJah/ShayJah/output/github-snake-dark.svg" />
   <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/ShayJah/ShayJah/output/github-snake.svg" />
 </picture>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d4d2b,100:1DB954&height=120&section=footer" />

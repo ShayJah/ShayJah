@@ -4,7 +4,8 @@ This is the special `ShayJah/ShayJah` repo: its root `README.md` is rendered on 
 
 ## Layout
 
-- `README.md` – the profile page. Uses third-party image services (capsule-render, typing-svg, github-readme-stats, skillicons, streak-stats). Spotify card URLs contain a `YOUR-APP` placeholder that must be replaced with the real Vercel domain.
+- `README.md` – the profile page. Uses third-party image services (github-readme-stats, skillicons, streak-stats). The Spotify card is served from `shayjah.vercel.app`.
+- `assets/` – `hero.svg` (the banner; shares base colour `#0d1117` and the centre "seam" glow with the top of the Spotify card so they read as one surface) and line-icon SVGs for the README "Connect" dropdown. GitHub strips inline SVG, so these must be image files.
 - `.github/workflows/snake.yml` – builds the contribution snake (Platane/snk) every 12h and on push to `main`, publishing SVGs to the `output` branch. The README reads them from `raw.githubusercontent.com/ShayJah/ShayJah/output/`.
 - `spotify-now-playing/` – standalone Vercel project (Node >= 20, ESM, no dependencies).
   - `api/now-playing.js` – serverless handler. `GET /api/now-playing` returns the animated SVG card; `?open` 302-redirects to the current song.
@@ -28,3 +29,10 @@ This is the special `ShayJah/ShayJah` repo: its root `README.md` is rendered on 
 - Required scopes: `user-read-currently-playing user-read-recently-played`.
 - Vercel project must use `spotify-now-playing` as its Root Directory (the repo root is the profile, not the app).
 - Do not rename `spotify-now-playing/` or the `output` branch without updating the README and the workflow.
+
+## Design rules (Cobuu-style)
+
+- No emojis anywhere (README, card, comments in user-facing text).
+- Monochrome palette on base `#0d1117`: text `#f2f2f2` / `#b1b8c0` / `#6e7681`, accent `#e7e7e7`, hairlines white at low opacity. Colour comes only from the album art.
+- Type: serif italic (Cormorant Garamond, falling back to Georgia) for names/titles; mono (DM Mono, falling back to Menlo) for small caps labels. Fonts can't be loaded inside GitHub-proxied SVGs, so always give system fallbacks.
+- The Spotify SVG is 1000x250 (card centred inside a stage) and the hero is 1000x300; keep widths equal so both scale identically at 100%.
