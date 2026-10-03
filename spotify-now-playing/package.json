@@ -1,0 +1,12 @@
+{
+  "name": "spotify-now-playing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Live Spotify now-playing card for a GitHub profile README",
+  "scripts": {
+    "token": "node --env-file=.env scripts/get-refresh-token.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
