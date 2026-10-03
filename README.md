@@ -7,9 +7,9 @@
 
 <br/>
 
-<!-- 🎧 LIVE SPOTIFY: replace YOUR-APP with your Vercel project name -->
-<a href="https://YOUR-APP.vercel.app/api/now-playing?open">
-  <img src="https://YOUR-APP.vercel.app/api/now-playing" alt="What I'm listening to on Spotify right now" width="560" />
+<!-- 🎧 LIVE SPOTIFY: served by the spotify-now-playing Vercel project -->
+<a href="https://shayjah.vercel.app/api/now-playing?open">
+  <img src="https://shayjah.vercel.app/api/now-playing" alt="What I'm listening to on Spotify right now" width="560" />
 </a>
 
 </div>
