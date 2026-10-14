@@ -35,9 +35,7 @@
 
 ### Stack
 
-<p align="center">
-JavaScript &nbsp;/&nbsp; TypeScript &nbsp;/&nbsp; React &nbsp;/&nbsp; React Native &nbsp;/&nbsp; Node.js &nbsp;/&nbsp; Firebase &nbsp;/&nbsp; Tailwind &nbsp;/&nbsp; Figma &nbsp;/&nbsp; Vercel
-</p>
+<p align="center"><img width="720" src="assets/stack.svg" alt="JavaScript, TypeScript, React, React Native, Node.js, Firebase, Tailwind, Figma, Vercel" /></p>
 
 ### Activity
 

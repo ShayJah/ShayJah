@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" role="img" aria-label="Stack: JavaScript, TypeScript, React, React Native, Tailwind, Node.js, Firebase, Figma, Vercel">
+  <style>
+    text { font-family: 'DM Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 14px; }
+    .prompt { fill: #6e7681; } .cmd { fill: #f2f2f2; } .out { fill: #b1b8c0; white-space: pre; }
+    .title { font-size: 11px; letter-spacing: 3px; fill: #6e7681; }
+    .screen { animation: screen 14.0s linear infinite; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes screen { 0% { opacity: 0 } 2%, 90% { opacity: 1 } 95%, 100% { opacity: 0 } }
+    @keyframes blink { 50% { opacity: 0 } }
+    @keyframes l0 { 0%, 2.86% { opacity: 0 } 2.93%, 100% { opacity: 1 } }
+    @keyframes c0 { 0%, 2.86% { transform: translateX(0); animation-timing-function: steps(6) } 6.71%, 100% { transform: translateX(50.4px) } }
+    @keyframes l1 { 0%, 11.43% { opacity: 0 } 11.50%, 100% { opacity: 1 } }
+    @keyframes l2 { 0%, 16.43% { opacity: 0 } 16.50%, 100% { opacity: 1 } }
+    @keyframes c2 { 0%, 16.43% { transform: translateX(0); animation-timing-function: steps(13) } 24.79%, 100% { transform: translateX(109.2px) } }
+    @keyframes l3 { 0%, 26.43% { opacity: 0 } 26.50%, 100% { opacity: 1 } }
+    @keyframes l4 { 0%, 28.21% { opacity: 0 } 28.29%, 100% { opacity: 1 } }
+    @keyframes l5 { 0%, 30.00% { opacity: 0 } 30.07%, 100% { opacity: 1 } }
+    @keyframes l6 { 0%, 31.79% { opacity: 0 } 31.86%, 100% { opacity: 1 } }
+  </style>
+  <rect x=".5" y=".5" width="719" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M.5 40.5 H719.5" stroke="#30363d"/>
+  <circle cx="22" cy="20" r="5.5" fill="#30363d"/><circle cx="40" cy="20" r="5.5" fill="#30363d"/><circle cx="58" cy="20" r="5.5" fill="#30363d"/>
+  <text class="title" x="360" y="24" text-anchor="middle">SHEJA@GITHUB: ~</text>
+  <g class="screen">
+    <g style="animation: l0 14.0s linear infinite"><text class="prompt" x="32" y="84">$</text><text class="cmd" x="48.8" y="84" textLength="50.4" lengthAdjust="spacingAndGlyphs">whoami</text>
+    <rect x="48.8" y="68" width="58.8" height="22" fill="#0d1117" style="animation: c0 14.0s linear infinite"/>
+    </g>
+    <g style="animation: l1 14.0s linear infinite"><text class="out" x="32" y="110" textLength="310.8" lengthAdjust="spacingAndGlyphs">sheja — mobile &amp; full-stack developer</text>
+    </g>
+    <g style="animation: l2 14.0s linear infinite"><text class="prompt" x="32" y="136">$</text><text class="cmd" x="48.8" y="136" textLength="109.2" lengthAdjust="spacingAndGlyphs">cat stack.txt</text>
+    <rect x="48.8" y="120" width="117.6" height="22" fill="#0d1117" style="animation: c2 14.0s linear infinite"/>
+    </g>
+    <g style="animation: l3 14.0s linear infinite"><text class="out" x="32" y="162" textLength="285.6" lengthAdjust="spacingAndGlyphs">languages   JavaScript, TypeScript</text>
+    </g>
+    <g style="animation: l4 14.0s linear infinite"><text class="out" x="32" y="188" textLength="344.4" lengthAdjust="spacingAndGlyphs">frontend    React, React Native, Tailwind</text>
+    </g>
+    <g style="animation: l5 14.0s linear infinite"><text class="out" x="32" y="214" textLength="243.6" lengthAdjust="spacingAndGlyphs">backend     Node.js, Firebase</text>
+    </g>
+    <g style="animation: l6 14.0s linear infinite"><text class="out" x="32" y="240" textLength="210.0" lengthAdjust="spacingAndGlyphs">tools       Figma, Vercel</text>
+    </g>
+  </g>
+  <text class="prompt" x="32" y="266">$</text>
+  <rect class="cursor" x="48.8" y="253" width="8" height="16" fill="#f2f2f2"/>
+</svg>
