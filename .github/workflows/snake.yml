@@ -24,6 +24,7 @@ jobs:
 
       - name: Skip Vercel deployments for the generated output branch
         run: |
+          sudo chown -R "$(id -u):$(id -g)" dist
           mkdir -p dist/spotify-now-playing
           printf '%s\n' '{"git":{"deploymentEnabled":{"output":false}}}' > dist/spotify-now-playing/vercel.json
           cp dist/spotify-now-playing/vercel.json dist/vercel.json
